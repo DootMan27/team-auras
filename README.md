@@ -33,7 +33,7 @@ Create the default teams:
 To turn the item in your main hand into a Team 1 aura helmet:
 
 ```mcfunction
-/function team_auras:apply/team1
+/function team_auras:item_apply/team1
 ```
 
 Replace `team1` with any team from `team1` to `team8`.
