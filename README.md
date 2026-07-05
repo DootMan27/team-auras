@@ -38,9 +38,9 @@ To turn the item in your main hand into a Team 1 aura helmet:
 
 Replace `team1` with any team from `team1` to `team8`.
 
-> **Note:** Aura items only grant their effects while equipped in the **helmet slot**. The `/function team_auras:apply/teamX` functions only assign the aura to the held item. They **do not** make it wearable.
+> **Note:** Aura items only grant their effects while equipped in the **helmet slot**. The `/function team_auras:apply/teamX` functions only assign the aura to the held item. They **do not** make the item equippable as a helmet.
 >
-> If you want to use an item that is not normally wearable as a helmet, you can use Minecraft's `/give` command with the `equippable` item component to make it wearable in the helmet slot. This is also the recommended way to add custom lore identifying the item as an Aura Helmet before applying the team aura.
+> If you want to use an item that is not normally wearable as a helmet, you can use Minecraft's `/give` command with the `equippable` item component to make it wearable in the helmet slot. This is a vanilla Minecraft feature, not part of this datapack.
 
 ## Team Customization
 
