@@ -14,7 +14,7 @@ A Minecraft datapack that lets you create team-based aura helmets. Players weari
 
 ## Installation
 
-1. Download the latest release.
+1. [Download the latest release.](https://github.com/DootMan27/team-auras/releases)
 2. Place the datapack into your world's `datapacks` folder.
 3. Run:
 
@@ -38,9 +38,9 @@ To turn the item in your main hand into a Team 1 aura helmet:
 
 Replace `team1` with any team from `team1` to `team8`.
 
-> **Note:** Aura items only grant their effects while equipped in the **helmet slot**. The `/function team_auras:apply/teamX` functions only assign the aura to the held item. They **do not** make the item equippable as a helmet.
+> **Note:** Aura items only grant their effects while equipped in the **helmet slot**. The `/function team_auras:apply/teamX` functions only assign the aura to the held item. They **do not** make the item wearable as a helmet if it isn't already.
 >
-> If you want to use an item that is not normally wearable as a helmet, you can use Minecraft's `/give` command with the `equippable` item component to make it wearable in the helmet slot. This is a vanilla Minecraft feature, not part of this datapack.
+> If you want to use an item that is not normally wearable as a helmet, you can use Minecraft's `/give` command with the `equippable` item component to make it wearable in the helmet slot. This is a vanilla feature.
 
 ## Team Customization
 
