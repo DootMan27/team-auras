@@ -7,4 +7,4 @@ execute if entity @a[team=team6] run function team_auras:team6
 execute if entity @a[team=team7] run function team_auras:team7
 execute if entity @a[team=team8] run function team_auras:team8
 
-schedule function team_auras:tick 5t
+schedule function team_auras:tick 20t replace
