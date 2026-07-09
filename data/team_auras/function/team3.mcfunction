@@ -2,4 +2,4 @@
 execute as @a[team=team3,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team3"}] run effect give @s minecraft:glowing 2 0 true
 
 # Nearby teammates
-execute as @a[team=team3,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team3"}] at @s run effect give @a[team=team3,distance=..10] minecraft:resistance 2 0 true
+execute as @a[team=team3,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team3"}] at @s run effect give @a[team=team3,gamemode=!spectator,distance=..10] minecraft:resistance 2 0 true

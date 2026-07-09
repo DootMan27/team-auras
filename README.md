@@ -95,7 +95,7 @@ For example:
 execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team1"}] run effect give @s minecraft:glowing 2 0 true
 
 # Nearby teammates
-execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team1"}] at @s run effect give @a[team=team1,distance=..10] minecraft:resistance 2 0 true
+execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team1"}] at @s run effect give @a[team=team1,gamemode=!spectator,distance=..10] minecraft:resistance 2 0 true
 ```
 
 You can customize:
@@ -110,7 +110,7 @@ For example, to make Team 1 grant **Speed II** to the wearer and **Regeneration 
 ```mcfunction
 execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team1"}] run effect give @s minecraft:speed 2 1 true
 
-execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team1"}] at @s run effect give @a[team=team1,distance=..20] minecraft:regeneration 5 0 true
+execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team1"}] at @s run effect give @a[team=team1,gamemode=!spectator,distance=..20] minecraft:regeneration 5 0 true
 ```
 
 ## Compatibility
