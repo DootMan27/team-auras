@@ -113,11 +113,6 @@ execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[cu
 execute as @a[team=team1,gamemode=!spectator] if items entity @s armor.head *[custom_data~{team:"team1"}] at @s run effect give @a[team=team1,gamemode=!spectator,distance=..20] minecraft:regeneration 5 0 true
 ```
 
-## Compatibility
-
-- Minecraft: **1.21.11 to 26.2**
-- Pack formats: **94.1 to 107.0**
-
 ## License
 
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
